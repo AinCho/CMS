@@ -1,0 +1,65 @@
+### 회원가입 (고객)
+POST http://localhost:9090/signup/customer
+Content-Type: application/json
+
+{
+  "birth": "2023-03-27",
+  "email": "cangiecho@gmail.com",
+  "name": "Myname",
+  "password": "pw",
+  "phone": "01000000000"
+}
+
+### 이메일 인증 (고객)
+GET http://localhost:9090/signup/customer/verify?email=cangiecho@gmail.com&code=
+
+### 로그인 (고객)
+POST http://localhost:9090/signin/customer
+Content-Type: application/json
+
+{
+  "email": "cangiecho@gmail.com",
+  "password": "pw"
+}
+
+### 회원 정보 조회 (고객)
+POST http://localhost:9090/customer/getInfo
+Content-Type: application/json
+X-AUTH-TOKEN:
+
+### 잔액 변경 (고객)
+POST http://localhost:9090/customer/balance
+Content-Type: application/json
+X-AUTH-TOKEN:
+
+{
+  "from": "server",
+  "message": "돈 충전",
+  "money": 50000
+}
+
+########################
+
+### 회원가입 (셀러)
+POST http://localhost:9090/signup/seller
+Content-Type: application/json
+
+{
+  "birth": "2023-03-27",
+  "email": "cangiecho4@gmail.com",
+  "name": "Myname",
+  "password": "pw",
+  "phone": "01000000000"
+}
+
+### 이메일 인증 (셀러)
+GET http://localhost:9090/signup/seller/verify?email=cangiecho@gmail.com&code=
+
+### 로그인 (셀러)
+POST http://localhost:9090/signin/seller
+Content-Type: application/json
+
+{
+  "email": "cangiecho4@gmail.com",
+  "password": "pw"
+}

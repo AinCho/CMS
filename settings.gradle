@@ -1,0 +1,5 @@
+rootProject.name = 'cms_2'
+include 'user-api'
+include 'zerobase-domain'
+include 'order-api'
+

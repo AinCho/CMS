@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.zerobase.cms.order.service.ProductServiceTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-01T12:11:09" hostname="joains-MacBook-Pro.local" time="0.276">
+  <properties/>
+  <testcase name="ADD_PRODUCT_TEST()" classname="com.zerobase.cms.order.service.ProductServiceTest" time="0.276">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;나이키 에어포스0&gt; but was: &lt;나이키 에어포스&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;나이키 에어포스0&gt; but was: &lt;나이키 에어포스&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at app//com.zerobase.cms.order.service.ProductServiceTest.ADD_PRODUCT_TEST(ProductServiceTest.java:40)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@11.0.18/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@11.0.18/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.18/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[21:11:05.705 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:11:05.710 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:11:05.728 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.zerobase.cms.order.service.ProductServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:11:05.733 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.zerobase.cms.order.service.ProductServiceTest], using SpringBootContextLoader
+21:11:05.735 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.zerobase.cms.order.service.ProductServiceTest]: class path resource [com/zerobase/cms/order/service/ProductServiceTest-context.xml] does not exist
+21:11:05.736 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.zerobase.cms.order.service.ProductServiceTest]: class path resource [com/zerobase/cms/order/service/ProductServiceTestContext.groovy] does not exist
+21:11:05.736 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.zerobase.cms.order.service.ProductServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:11:05.736 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.zerobase.cms.order.service.ProductServiceTest]: ProductServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:11:05.758 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.zerobase.cms.order.service.ProductServiceTest]
+21:11:05.793 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/choain/Desktop/Desktop - 조아인’s MacBook Pro/Zerobase/cms_2/order-api/build/classes/java/main/com/zerobase/cms/order/ZeroOrderApplication.class]
+21:11:05.794 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.zerobase.cms.order.ZeroOrderApplication for test class com.zerobase.cms.order.service.ProductServiceTest
+21:11:05.858 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.zerobase.cms.order.service.ProductServiceTest]: using defaults.
+21:11:05.859 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+21:11:05.867 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@678040b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17f460bb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@64a1923a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7d2a6eac, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@18ca3c62, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2c0f7678, org.springframework.test.context.transaction.TransactionalTestExecutionListener@44d70181, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6aa648b9, org.springframework.test.context.event.EventPublishingTestExecutionListener@23c650a3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@742d4e15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@88a8218, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50b1f030, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4163f1cd, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5fa05212, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e681bc]
+21:11:05.869 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@df4b72 testClass = ProductServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2ba45490 testClass = ProductServiceTest, locations = '{}', classes = '{class com.zerobase.cms.order.ZeroOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@efde75f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@11eadcba, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4bff1903, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@654d8173, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3a62c01e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@560348e6], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.5)
+
+2023-04-01 21:11:06.067  INFO 10969 --- [    Test worker] c.z.c.order.service.ProductServiceTest   : Starting ProductServiceTest using Java 11.0.18 on joains-MacBook-Pro.local with PID 10969 (started by choain in /Users/choain/Desktop/Desktop - 조아인’s MacBook Pro/Zerobase/cms_2/order-api)
+2023-04-01 21:11:06.068  INFO 10969 --- [    Test worker] c.z.c.order.service.ProductServiceTest   : No active profile set, falling back to 1 default profile: "default"
+2023-04-01 21:11:06.462  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-01 21:11:06.463  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-01 21:11:06.471  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-04-01 21:11:06.472  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-01 21:11:06.472  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-01 21:11:06.561  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2023-04-01 21:11:06.684  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-01 21:11:06.684  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-01 21:11:06.689  INFO 10969 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.zerobase.cms.order.domain.repository.ProductItemRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-01 21:11:06.690  INFO 10969 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.zerobase.cms.order.domain.repository.ProductRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-01 21:11:06.690  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2023-04-01 21:11:06.699  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-01 21:11:06.699  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-01 21:11:06.701  INFO 10969 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.cms.order.domain.repository.ProductItemRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2023-04-01 21:11:06.702  INFO 10969 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zerobase.cms.order.domain.repository.ProductRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2023-04-01 21:11:06.702  INFO 10969 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-04-01 21:11:06.837  INFO 10969 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4d636963-6b69-300e-9cc2-4ac6aa963727
+2023-04-01 21:11:07.121  INFO 10969 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-01 21:11:07.152  INFO 10969 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2023-04-01 21:11:07.251  INFO 10969 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-01 21:11:07.315  INFO 10969 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-01 21:11:07.426  INFO 10969 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-01 21:11:07.445  INFO 10969 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-01 21:11:07.469  INFO 10969 --- [    Test worker] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+Hibernate: alter table product_aud drop foreign key FK9vwllld6jlw5xys1ay911oh1x
+Hibernate: alter table product_item_aud drop foreign key FKsu16feuy6m68lel3dxocjsb4f
+Hibernate: alter table product_product_item_aud drop foreign key FKp46j5kmpge2d2hjvbdvf5va83
+Hibernate: alter table product_item drop foreign key FKa9mjpi98ark8eovbtnnreygbb
+Hibernate: drop table if exists product
+Hibernate: drop table if exists product_aud
+Hibernate: drop table if exists product_item_aud
+Hibernate: drop table if exists product_product_item_aud
+Hibernate: drop table if exists product_item
+Hibernate: drop table if exists revinfo
+Hibernate: create table product (id bigint not null auto_increment, create_at datetime(6), modified_at datetime(6), description varchar(255), name varchar(255), seller_id bigint, primary key (id)) engine=InnoDB
+Hibernate: create table product_aud (id bigint not null, rev integer not null, revtype tinyint, create_at datetime(6), modified_at datetime(6), description varchar(255), name varchar(255), seller_id bigint, primary key (id, rev)) engine=InnoDB
+Hibernate: create table product_item_aud (id bigint not null, rev integer not null, revtype tinyint, create_at datetime(6), modified_at datetime(6), name varchar(255), price integer, primary key (id, rev)) engine=InnoDB
+Hibernate: create table product_product_item_aud (rev integer not null, product_id bigint not null, id bigint not null, revtype tinyint, primary key (rev, product_id, id)) engine=InnoDB
+Hibernate: create table product_item (id bigint not null auto_increment, create_at datetime(6), modified_at datetime(6), count integer, name varchar(255), price integer, seller_id bigint, product_id bigint, primary key (id)) engine=InnoDB
+Hibernate: create table revinfo (rev integer not null auto_increment, revtstmp bigint, primary key (rev)) engine=InnoDB
+Hibernate: alter table product_aud add constraint FK9vwllld6jlw5xys1ay911oh1x foreign key (rev) references revinfo (rev)
+Hibernate: alter table product_item_aud add constraint FKsu16feuy6m68lel3dxocjsb4f foreign key (rev) references revinfo (rev)
+Hibernate: alter table product_product_item_aud add constraint FKp46j5kmpge2d2hjvbdvf5va83 foreign key (rev) references revinfo (rev)
+Hibernate: alter table product_item add constraint FKa9mjpi98ark8eovbtnnreygbb foreign key (product_id) references product (id)
+2023-04-01 21:11:08.252  INFO 10969 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-01 21:11:08.256  INFO 10969 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-01 21:11:08.638  WARN 10969 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-01 21:11:09.651  INFO 10969 --- [    Test worker] c.z.c.order.service.ProductServiceTest   : Started ProductServiceTest in 3.761 seconds (JVM running for 4.419)
+Hibernate: insert into product (create_at, modified_at, description, name, seller_id) values (?, ?, ?, ?, ?)
+Hibernate: insert into product_item (create_at, modified_at, count, name, price, product_id, seller_id) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into product_item (create_at, modified_at, count, name, price, product_id, seller_id) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into product_item (create_at, modified_at, count, name, price, product_id, seller_id) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: update product_item set product_id=? where id=?
+Hibernate: update product_item set product_id=? where id=?
+Hibernate: update product_item set product_id=? where id=?
+Hibernate: insert into revinfo (revtstmp) values (?)
+Hibernate: insert into product_aud (revtype, create_at, modified_at, description, name, seller_id, id, rev) values (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into product_item_aud (revtype, create_at, modified_at, name, price, id, rev) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into product_item_aud (revtype, create_at, modified_at, name, price, id, rev) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into product_item_aud (revtype, create_at, modified_at, name, price, id, rev) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into product_product_item_aud (revtype, rev, product_id, id) values (?, ?, ?, ?)
+Hibernate: insert into product_product_item_aud (revtype, rev, product_id, id) values (?, ?, ?, ?)
+Hibernate: insert into product_product_item_aud (revtype, rev, product_id, id) values (?, ?, ?, ?)
+Hibernate: select product0_.id as id1_0_0_, productite1_.id as id1_4_1_, product0_.create_at as create_a2_0_0_, product0_.modified_at as modified3_0_0_, product0_.description as descript4_0_0_, product0_.name as name5_0_0_, product0_.seller_id as seller_i6_0_0_, productite1_.create_at as create_a2_4_1_, productite1_.modified_at as modified3_4_1_, productite1_.count as count4_4_1_, productite1_.name as name5_4_1_, productite1_.price as price6_4_1_, productite1_.product_id as product_8_4_1_, productite1_.seller_id as seller_i7_4_1_, productite1_.product_id as product_8_4_0__, productite1_.id as id1_4_0__ from product product0_ left outer join product_item productite1_ on product0_.id=productite1_.product_id where product0_.id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
